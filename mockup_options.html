@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Profile Mockup Options - Lalit Kishore</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --text-muted: #8b949e;
+      --text-bright: #ffffff;
+      --accent: #58a6ff;
+      --teal: #9ccfd8;
+      --rose: #ebbcba;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #010409;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 24px;
+    }
+
+    /* Top Navigation Tabs */
+    .tab-bar {
+      max-width: 920px;
+      margin: 0 auto 24px auto;
+      display: flex;
+      gap: 8px;
+      background-color: var(--card-bg);
+      padding: 8px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .tab-btn:hover {
+      color: var(--text);
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      color: #ffffff;
+      background-color: #21262d;
+      border: 1px solid var(--border);
+    }
+
+    /* Profile Container Container */
+    .profile-card {
+      max-width: 920px;
+      margin: 0 auto;
+      background-color: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 36px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+      display: none;
+    }
+
+    .profile-card.active {
+      display: block;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 26px;
+      color: var(--text-bright);
+      margin: 12px 0 6px 0;
+      font-weight: 600;
+    }
+
+    h3 {
+      font-size: 15px;
+      color: var(--text-muted);
+      font-weight: 400;
+      margin: 0 0 16px 0;
+      line-height: 1.5;
+    }
+
+    .section-title {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text-bright);
+      margin: 32px 0 14px 0;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .social-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      margin: 18px 0;
+    }
+
+    .social-row a {
+      display: inline-flex;
+      align-items: center;
+      transition: transform 0.2s;
+    }
+
+    .social-row a:hover {
+      transform: translateY(-2px);
+    }
+
+    .avatar-icon {
+      border-radius: 4px;
+      vertical-align: middle;
+      border: 1px solid #30363d;
+    }
+
+    /* Media Containers */
+    .media-box {
+      margin: 18px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .media-box img, .media-box picture img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+
+    /* Grid & Tech Badges */
+    .tech-icons-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      margin: 18px 0;
+    }
+
+    .badge-pill {
+      display: inline-block;
+      padding: 3px 8px;
+      font-size: 12px;
+      border-radius: 12px;
+      background-color: #21262d;
+      border: 1px solid var(--border);
+      color: var(--teal);
+      margin-right: 6px;
+      margin-bottom: 4px;
+      font-family: "Fira Code", monospace;
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 14px;
+      margin: 18px 0;
+    }
+
+    .category-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 14px;
+    }
+
+    .category-card h4 {
+      margin: 0 0 10px 0;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--teal);
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+      font-size: 14px;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      text-align: left;
+    }
+
+    th {
+      background-color: var(--card-bg);
+      color: var(--text-bright);
+    }
+
+    td a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    td a:hover {
+      text-decoration: underline;
+    }
+
+    /* Stats row */
+    .stats-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+      margin: 20px 0;
+    }
+
+    .stats-row img {
+      height: 150px;
+      border-radius: 6px;
+    }
+
+    ul.clean-list {
+      margin: 14px 0;
+      padding-left: 20px;
+      color: var(--text);
+      line-height: 1.8;
+      font-size: 14px;
+    }
+
+    ul.clean-list strong {
+      color: var(--text-bright);
+    }
+
+    .code-box {
+      background-color: #010409;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 16px;
+      margin-top: 24px;
+      font-family: monospace;
+      font-size: 12px;
+      color: var(--text-muted);
+      overflow-x: auto;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Mockup Selector Tab Bar -->
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="showTab('option1')">Option 1: Clean Baseline + Typing Subtitle</button>
+    <button class="tab-btn" onclick="showTab('option2')">Option 2: Featured IoT/AI Projects Table</button>
+    <button class="tab-btn" onclick="showTab('option3')">Option 3: Categorized Skills & Top Languages</button>
+    <button class="tab-btn" onclick="showTab('option4')">Option 4: Master All-In-One Layout</button>
+  </div>
+
+  <!-- OPTION 1 -->
+  <div id="option1" class="profile-card active">
+    <div class="center">
+      <h1>Hi, I'm Lalit Kishore</h1>
+      <h3>IoT & AI Developer building practical automation systems with ESP32, Computer Vision, and Full-Stack Web Tech.</h3>
+      
+      <!-- Typing Animation -->
+      <div>
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9CCFD8&center=true&vCenter=true&width=550&lines=IoT+%26+Automation+Systems+Developer;ESP32+%2B+Computer+Vision+Pipelines;Full-Stack+Web+Developer" alt="Typing Subtitle" />
+      </div>
+
+      <!-- Social Row -->
+      <div class="social-row">
+        <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank">
+          <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="LinkedIn" />
+        </a>
+        <a href="https://discord.com/users/1312078445513277480" target="_blank">
+          <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="37" height="25" alt="Discord" />
+        </a>
+        <a href="mailto:svlalitk@gmail.com" target="_blank">
+          <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="37" height="25" alt="Gmail" />
+        </a>
+        <a href="https://lalitkishore.is-a.dev/" target="_blank">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/portfolio.png" width="25" height="25" alt="Portfolio" class="avatar-icon" />
+        </a>
+      </div>
+    </div>
+
+    <div class="media-box">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/pacman-output/pacman-contribution-graph.svg?game=pacman">
+        <img alt="Pacman" src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/pacman-output/pacman-contribution-graph.svg?game=pacman" width="100%" />
+      </picture>
+    </div>
+
+    <div class="media-box">
+      <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/activity-graph-output/activity-graph.svg" width="100%" alt="Activity Graph" />
+    </div>
+
+    <div class="tech-icons-row">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="50" alt="TypeScript" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height="50" alt="Python" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original-wordmark.svg" height="50" alt="Embedded C" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" height="50" alt="Git" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" height="50" alt="HTML5" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="50" alt="Figma" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="50" alt="Firebase" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="50" alt="JavaScript" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" height="50" alt="NodeJS" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="50" alt="Swift" />
+    </div>
+
+    <div class="stats-row">
+      <img src="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=false" alt="Stats" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lalitkishore2&theme=rose_pine&hide_border=false&border_radius=0" alt="Streak" />
+    </div>
+  </div>
+
+  <!-- OPTION 2 -->
+  <div id="option2" class="profile-card">
+    <div class="center">
+      <h1>Hi, I'm Lalit Kishore</h1>
+      <h3>IoT & AI Developer building practical automation systems with ESP32, Computer Vision, and Full-Stack Web Tech.</h3>
+
+      <div class="social-row">
+        <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="LinkedIn" /></a>
+        <a href="https://discord.com/users/1312078445513277480" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="37" height="25" alt="Discord" /></a>
+        <a href="mailto:svlalitk@gmail.com" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="37" height="25" alt="Gmail" /></a>
+        <a href="https://lalitkishore.is-a.dev/" target="_blank"><img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/portfolio.png" width="25" height="25" alt="Portfolio" class="avatar-icon" /></a>
+      </div>
+    </div>
+
+    <div class="section-title">Featured Projects</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Tech Stack</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://github.com/Lalitkishore2/smartparking" target="_blank">smartparking</a></td>
+          <td><span class="badge-pill">ESP32</span> <span class="badge-pill">C++</span> <span class="badge-pill">IoT</span></td>
+          <td>Automated smart parking system for private parking areas.</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Lalitkishore2/sign-language-glove" target="_blank">sign-language-glove</a></td>
+          <td><span class="badge-pill">Sensors</span> <span class="badge-pill">Hardware</span> <span class="badge-pill">JS</span></td>
+          <td>Smart glove translating gesture movements in real-time.</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Lalitkishore2/LADA-AI" target="_blank">LADA-AI</a></td>
+          <td><span class="badge-pill">TypeScript</span> <span class="badge-pill">AI</span></td>
+          <td>Intelligent automation and AI agent system.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-title">Contribution Arcade & Activity</div>
+    <div class="media-box">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/pacman-output/pacman-contribution-graph.svg?game=pacman">
+        <img alt="Pacman" src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/pacman-output/pacman-contribution-graph.svg?game=pacman" width="100%" />
+      </picture>
+    </div>
+
+    <div class="stats-row">
+      <img src="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=false" alt="Stats" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lalitkishore2&theme=rose_pine&hide_border=false&border_radius=0" alt="Streak" />
+    </div>
+  </div>
+
+  <!-- OPTION 3 -->
+  <div id="option3" class="profile-card">
+    <div class="center">
+      <h1>Hi, I'm Lalit Kishore</h1>
+      <h3>IoT & AI Developer building practical automation systems with ESP32, Computer Vision, and Full-Stack Web Tech.</h3>
+
+      <div class="social-row">
+        <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="LinkedIn" /></a>
+        <a href="https://discord.com/users/1312078445513277480" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="37" height="25" alt="Discord" /></a>
+        <a href="mailto:svlalitk@gmail.com" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="37" height="25" alt="Gmail" /></a>
+        <a href="https://lalitkishore.is-a.dev/" target="_blank"><img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/portfolio.png" width="25" height="25" alt="Portfolio" class="avatar-icon" /></a>
+      </div>
+    </div>
+
+    <div class="section-title">Core Technologies & Domains</div>
+    <div class="category-grid">
+      <div class="category-card">
+        <h4>Embedded & IoT</h4>
+        <span class="badge-pill">ESP32</span>
+        <span class="badge-pill">Embedded C</span>
+        <span class="badge-pill">MQTT</span>
+        <span class="badge-pill">Sensors</span>
+      </div>
+      <div class="category-card">
+        <h4>AI & Vision</h4>
+        <span class="badge-pill">Python</span>
+        <span class="badge-pill">OpenCV</span>
+        <span class="badge-pill">YOLO</span>
+      </div>
+      <div class="category-card">
+        <h4>Full-Stack Web</h4>
+        <span class="badge-pill">TypeScript</span>
+        <span class="badge-pill">Node.js</span>
+        <span class="badge-pill">Firebase</span>
+        <span class="badge-pill">HTML5</span>
+      </div>
+      <div class="category-card">
+        <h4>Tools & Platform</h4>
+        <span class="badge-pill">Git</span>
+        <span class="badge-pill">Figma</span>
+        <span class="badge-pill">Swift</span>
+      </div>
+    </div>
+
+    <div class="section-title">Statistics & Top Languages</div>
+    <div class="stats-row">
+      <img src="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=false" alt="Stats" />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Lalitkishore2&layout=compact&theme=rose_pine&hide_border=false" alt="Top Languages" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lalitkishore2&theme=rose_pine&hide_border=false&border_radius=0" alt="Streak" />
+    </div>
+  </div>
+
+  <!-- OPTION 4 -->
+  <div id="option4" class="profile-card">
+    <div class="center">
+      <h1>Hi, I'm Lalit Kishore</h1>
+      <h3>IoT & AI Developer building practical automation systems with ESP32, Computer Vision, and Full-Stack Web Tech.</h3>
+      
+      <div>
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9CCFD8&center=true&vCenter=true&width=550&lines=IoT+%26+Automation+Systems+Developer;ESP32+%2B+Computer+Vision+Pipelines;Full-Stack+Web+Developer" alt="Typing Subtitle" />
+      </div>
+
+      <div class="social-row">
+        <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="LinkedIn" /></a>
+        <a href="https://discord.com/users/1312078445513277480" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="37" height="25" alt="Discord" /></a>
+        <a href="mailto:svlalitk@gmail.com" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="37" height="25" alt="Gmail" /></a>
+        <a href="https://lalitkishore.is-a.dev/" target="_blank"><img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/portfolio.png" width="25" height="25" alt="Portfolio" class="avatar-icon" /></a>
+      </div>
+    </div>
+
+    <div class="section-title">Technical Domains</div>
+    <div class="category-grid">
+      <div class="category-card">
+        <h4>Embedded & IoT</h4>
+        <span class="badge-pill">ESP32</span>
+        <span class="badge-pill">Embedded C</span>
+        <span class="badge-pill">MQTT</span>
+        <span class="badge-pill">Sensors</span>
+      </div>
+      <div class="category-card">
+        <h4>AI & Vision</h4>
+        <span class="badge-pill">Python</span>
+        <span class="badge-pill">OpenCV</span>
+        <span class="badge-pill">YOLO</span>
+      </div>
+      <div class="category-card">
+        <h4>Full-Stack Web</h4>
+        <span class="badge-pill">TypeScript</span>
+        <span class="badge-pill">Node.js</span>
+        <span class="badge-pill">Firebase</span>
+        <span class="badge-pill">HTML5</span>
+      </div>
+      <div class="category-card">
+        <h4>Tools & Platforms</h4>
+        <span class="badge-pill">Git</span>
+        <span class="badge-pill">Figma</span>
+        <span class="badge-pill">Swift</span>
+      </div>
+    </div>
+
+    <div class="section-title">Featured Projects</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Tech Stack</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://github.com/Lalitkishore2/smartparking" target="_blank">smartparking</a></td>
+          <td><span class="badge-pill">ESP32</span> <span class="badge-pill">C++</span> <span class="badge-pill">IoT</span></td>
+          <td>Automated smart parking system for private parking areas.</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Lalitkishore2/sign-language-glove" target="_blank">sign-language-glove</a></td>
+          <td><span class="badge-pill">Sensors</span> <span class="badge-pill">Hardware</span> <span class="badge-pill">JS</span></td>
+          <td>Smart glove translating gesture movements in real-time.</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/Lalitkishore2/LADA-AI" target="_blank">LADA-AI</a></td>
+          <td><span class="badge-pill">TypeScript</span> <span class="badge-pill">AI</span></td>
+          <td>Intelligent automation and AI agent system.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-title">Contribution Arcade & Graph</div>
+    <div class="media-box">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/pacman-output/pacman-contribution-graph.svg?game=pacman">
+        <img alt="Pacman" src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/pacman-output/pacman-contribution-graph.svg?game=pacman" width="100%" />
+      </picture>
+    </div>
+
+    <div class="media-box">
+      <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/activity-graph-output/activity-graph.svg" width="100%" alt="Activity Graph" />
+    </div>
+
+    <div class="section-title">GitHub Analytics & Metrics</div>
+    <div class="stats-row">
+      <img src="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=false" alt="Stats" />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Lalitkishore2&layout=compact&theme=rose_pine&hide_border=false" alt="Top Languages" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lalitkishore2&theme=rose_pine&hide_border=false&border_radius=0" alt="Streak" />
+    </div>
+  </div>
+
+  <script>
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.profile-card').forEach(card => card.classList.remove('active'));
+      
+      event.target.classList.add('active');
+      document.getElementById(tabId).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>

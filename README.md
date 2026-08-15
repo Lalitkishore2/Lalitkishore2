@@ -23,6 +23,14 @@
 
 ###
 
+<div align="center">
+  <a href="https://lalitkishore.is-a.dev/" target="_blank" title="Visit Live Portfolio: lalitkishore.is-a.dev">
+    <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/portfolio-browser.svg" width="100%" alt="Live Portfolio Preview - lalitkishore.is-a.dev" />
+  </a>
+</div>
+
+###
+
 <picture data-importer="pacman">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/pacman-output/pacman-contribution-graph.svg?game=pacman">
