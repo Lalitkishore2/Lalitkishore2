@@ -64,9 +64,9 @@
 ###
 
 <div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/stats-output/stats.svg" height="150" alt="stats graph" />
+  <img src="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=false" height="150" alt="stats graph" />
   <img width="12" />
-  <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/streak-stats-output/streak-stats.svg" height="150" alt="streak graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lalitkishore2&theme=rose_pine&hide_border=false&border_radius=0" height="150" alt="streak graph" />
 </div>
 
 ###
