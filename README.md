@@ -4,6 +4,9 @@
 
 <h3 data-importer="text" align="center">IoT & AI Developer building practical automation systems with ESP32, Computer Vision, and Full-Stack Web Tech.</h3>
 
+### Portfolio
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://lalitkishore.is-a.dev/)
+
 ###
 
 <div data-importer="socials" align="center">
