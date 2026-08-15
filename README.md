@@ -7,14 +7,14 @@
 ###
 
 <div data-importer="socials" align="center">
-  <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
+    <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo"  />
   </a>
-  <a href="https://discord.com/users/1312078445513277480" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo" />
+  <a href="http://discord.com/users/1312078445513277480" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="37" height="25" alt="discord logo"  />
   </a>
-  <a href="mailto:svlalitk@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" />
+  <a href="svlalitk@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="37" height="25" alt="gmail logo"  />
   </a>
   <a href="https://lalitkishore.is-a.dev/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Portfolio&logo=googlechrome&label=&color=0A66C2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="portfolio logo" />
