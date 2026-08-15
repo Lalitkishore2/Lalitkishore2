@@ -34,7 +34,7 @@
 ###
 
 <div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/activity-graph-output/activity-graph.svg?radius=16&theme=modern-lilac&area=true" width="100%" alt="activity-graph graph" />
+  <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/activity-graph-output/activity-graph.svg" width="100%" alt="activity-graph graph" />
 </div>
 
 ###
