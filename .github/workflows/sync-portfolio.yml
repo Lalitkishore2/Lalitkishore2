@@ -1,0 +1,51 @@
+name: Sync & Update Live Portfolio Preview
+
+on:
+  repository_dispatch:
+    types: [portfolio_updated]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  push:
+    paths:
+      - 'scripts/capture-portfolio.js'
+      - '.github/workflows/sync-portfolio.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  capture-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Profile Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Playwright & Dependencies
+        run: |
+          npm init -y
+          npm install playwright
+          npx playwright install --with-deps chromium
+
+      - name: Capture Fresh Live Portfolio Frames & Build Animated SVG
+        run: |
+          node scripts/capture-portfolio.js
+
+      - name: Commit and Push Updated Live Preview Assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "No visual changes detected."
+          else
+            git commit -m "Auto-sync live portfolio preview from Lalitkishore2/portfolio commit"
+            git push origin main
+          fi
