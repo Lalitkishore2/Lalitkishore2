@@ -1,20 +1,80 @@
 <div align="center">
   <a href="https://lalitkishore.is-a.dev/" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/header-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/header-light.svg">
-      <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/header-dark.svg" width="100%" alt="S V Lalit Kishore - Portfolio Header" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/banner-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/banner-light.svg">
+      <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/banner-dark.svg" width="100%" alt="S V Lalit Kishore - Portfolio Banner" />
     </picture>
   </a>
 </div>
 
-###
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank" title="LinkedIn"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="36" height="36" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://discord.com/users/1312078445513277480" target="_blank" title="Discord"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="36" height="36" alt="Discord" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:svlalitk@gmail.com" target="_blank" title="Gmail"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="36" height="36" alt="Gmail" /></a>
-</div>
+<table width="100%" border="0" cellspacing="3" cellpadding="0">
+  <tr align="center">
+    <td>
+      <a href="https://lalitkishore.is-a.dev/" target="_blank" title="Live Portfolio Website">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-portfolio-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-portfolio-light.svg">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-portfolio-dark.svg" height="34" alt="Live Portfolio ↗" />
+        </picture>
+      </a>
+    </td>
+    <td>
+      <a href="https://lalitkishore.is-a.dev/projects" target="_blank" title="Systems & Projects Directory">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-projects-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-projects-light.svg">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-projects-dark.svg" height="34" alt="[ PROJECTS ]" />
+        </picture>
+      </a>
+    </td>
+    <td>
+      <a href="https://lalitkishore.is-a.dev/#about-section" target="_blank" title="About & Arsenal Section">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-about-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-about-light.svg">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-about-dark.svg" height="34" alt="[ ABOUT ]" />
+        </picture>
+      </a>
+    </td>
+    <td>
+      <a href="https://lalitkishore.is-a.dev/#contact-section" target="_blank" title="Contact Form Section">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-contact-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-contact-light.svg">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-contact-dark.svg" height="34" alt="[ CONTACT ]" />
+        </picture>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank" title="LinkedIn Profile">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-linkedin-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-linkedin-light.svg">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-linkedin-dark.svg" height="34" alt="LinkedIn" />
+        </picture>
+      </a>
+    </td>
+    <td>
+      <a href="https://discord.com/users/1312078445513277480" target="_blank" title="Discord Profile">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-discord-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-discord-light.svg">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-discord-dark.svg" height="34" alt="Discord" />
+        </picture>
+      </a>
+    </td>
+    <td>
+      <a href="mailto:svlalitk@gmail.com" target="_blank" title="Send Email">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-gmail-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-gmail-light.svg">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/btn-gmail-dark.svg" height="34" alt="Gmail" />
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ###
 
