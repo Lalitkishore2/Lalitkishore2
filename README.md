@@ -24,12 +24,11 @@
 
 ### // FEATURED SYSTEMS • CASE STUDIES
 
-| Index | System | Tech Stack | Description |
-| :--- | :--- | :--- | :--- |
-| `01 //` | **[AQUADOT](https://lalitkishore.is-a.dev/projects)** | `ESP32` `Embedded C` `Sensors` | Autonomous aquaculture monitoring and water quality control system |
-| `02 //` | **[SMARTFLOW IV](https://lalitkishore.is-a.dev/projects)** | `IoT` `Hardware` `Telemetry` | Intelligent intravenous fluid rate monitoring and telemetry alert system |
-| `03 //` | **[MED INVENTORY](https://lalitkishore.is-a.dev/projects)** | `Python` `OpenCV` `YOLO` | Computer vision-assisted medical stock tracking and logistics |
-| `04 //` | **[BURFI STOCK](https://lalitkishore.is-a.dev/projects)** | `TypeScript` `Full-Stack` | Full-stack inventory management, order forecasting, and analytics |
+<div align="center">
+  <a href="https://lalitkishore.is-a.dev/projects" target="_blank" title="Explore Systems on lalitkishore.is-a.dev/projects">
+    <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/featured-systems.svg" width="100%" alt="Featured Systems - AquaDot, SmartFlow IV, Med Inventory, Burfi Stock" />
+  </a>
+</div>
 
 ###
 
@@ -84,7 +83,7 @@
 <div data-importer="stats" align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&title_color=E03E3E&icon_color=E03E3E&text_color=c9d1d9&bg_color=0d1117&border_color=30363d&locale=en&hide_border=false" height="150" alt="stats graph" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lalitkishore2&theme=rose_pine&stroke=E03E3E&ring=E03E3E&fire=E03E3E&currStreakLabel=E03E3E&hide_border=false&border_radius=4" height="150" alt="streak graph" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Lalitkishore2&layout=compact&title_color=E03E3E&text_color=c9d1d9&bg_color=0d1117&border_color=30363d&locale=en&hide_border=false" height="150" alt="top languages" />
 </div>
 
 ###
