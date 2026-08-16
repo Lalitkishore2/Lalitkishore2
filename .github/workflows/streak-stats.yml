@@ -21,14 +21,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate streak-stats.svg
+      - name: Generate dark streak-stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=${{ github.repository_owner }}&theme=rose_pine&hide_border=false&border_radius=0
-          path: dist/streak-stats.svg
+          options: user=${{ github.repository_owner }}&theme=rose_pine&stroke=FF3B30&ring=FF3B30&fire=FF3B30&currStreakLabel=FF3B30&background=161b22&border=30363d&hide_border=false&border_radius=8
+          path: dist/streak-dark.svg
           token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Push streak-stats.svg to the output branch
+      - name: Generate light streak-stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&theme=rose_pine&stroke=FF3B30&ring=FF3B30&fire=FF3B30&currStreakLabel=FF3B30&background=FFFFFF&border=D0D0D0&dates=0A0A0A&currStreakNum=0A0A0A&sideNums=0A0A0A&sideLabels=6B6B68&hide_border=false&border_radius=8
+          path: dist/streak-light.svg
+          token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Push streak SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: streak-stats-output

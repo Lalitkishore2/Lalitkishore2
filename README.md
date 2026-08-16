@@ -205,15 +205,15 @@
 
 <div data-importer="stats" align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&title_color=FF3B30&icon_color=FF3B30&text_color=F2F0EB&bg_color=0A0A0A&border_color=333333&locale=en&hide_border=false">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&title_color=FF3B30&icon_color=FF3B30&text_color=0A0A0A&bg_color=F5F4F0&border_color=D0D0D0&locale=en&hide_border=false">
-    <img src="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&title_color=FF3B30&icon_color=FF3B30&text_color=F2F0EB&bg_color=0A0A0A&border_color=333333&locale=en&hide_border=false" height="150" alt="stats graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&title_color=FF3B30&icon_color=FF3B30&text_color=F2F0EB&bg_color=161b22&border_color=30363d&locale=en&hide_border=false">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&title_color=FF3B30&icon_color=FF3B30&text_color=0A0A0A&bg_color=FFFFFF&border_color=D0D0D0&locale=en&hide_border=false">
+    <img src="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&title_color=FF3B30&icon_color=FF3B30&text_color=F2F0EB&bg_color=161b22&border_color=30363d&locale=en&hide_border=false" height="160" alt="stats graph" />
   </picture>
   &nbsp;&nbsp;
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Lalitkishore2&layout=compact&title_color=FF3B30&text_color=F2F0EB&bg_color=0A0A0A&border_color=333333&locale=en&hide_border=false">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Lalitkishore2&layout=compact&title_color=FF3B30&text_color=0A0A0A&bg_color=F5F4F0&border_color=D0D0D0&locale=en&hide_border=false">
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Lalitkishore2&layout=compact&title_color=FF3B30&text_color=F2F0EB&bg_color=0A0A0A&border_color=333333&locale=en&hide_border=false" height="150" alt="top languages" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/streak-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/streak-light.svg">
+    <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/streak-dark.svg" height="160" alt="streak graph" />
   </picture>
 </div>
 

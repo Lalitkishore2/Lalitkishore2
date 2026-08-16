@@ -1,19 +1,16 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 90" width="100%" height="100%">
-  <!-- Background -->
-  <rect width="1100" height="90" fill="#F5F4F0" />
-  
-  <!-- Giant Ghost Background Outline Text -->
-  <text x="30" y="70" fill="none" stroke="rgba(10,10,10,0.06)" stroke-width="2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Impact, sans-serif" font-size="80" font-weight="900" letter-spacing="4" opacity="0.9">SYSTEMS</text>
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 85" width="100%" height="100%">
+  <!-- Giant Ghost Background Outline Text (Seamlessly floating) -->
+  <text x="10" y="66" fill="none" stroke="rgba(10,10,10,0.07)" stroke-width="2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Impact, sans-serif" font-size="78" font-weight="900" letter-spacing="4">SYSTEMS</text>
 
   <!-- Foreground Content -->
-  <g transform="translate(30, 20)">
+  <g transform="translate(10, 16)">
     <!-- Index Tag -->
-    <text x="0" y="16" fill="#FF3B30" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" letter-spacing="2">01 // SYSTEMS</text>
+    <text x="0" y="16" fill="#FF3B30" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="bold" letter-spacing="2">01 // SYSTEMS</text>
     
     <!-- Title -->
-    <text x="0" y="44" fill="#0A0A0A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="900" letter-spacing="1.5">FEATURED SYSTEMS &amp; CASE STUDIES</text>
+    <text x="0" y="44" fill="#0A0A0A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23" font-weight="900" letter-spacing="1.5">FEATURED SYSTEMS &amp; CASE STUDIES</text>
     
     <!-- Accent Line -->
-    <rect x="0" y="54" width="70" height="3" fill="#FF3B30" rx="1.5" />
+    <rect x="0" y="54" width="60" height="3" fill="#FF3B30" rx="1.5" />
   </g>
 </svg>
