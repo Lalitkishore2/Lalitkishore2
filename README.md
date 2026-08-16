@@ -1,41 +1,17 @@
-<h1 data-importer="text" align="center">S V / LALITKISHORE</h1>
-
-<p align="center">
-  <code>PORTFOLIO // ECE + DATA SCIENCE • SRMIST</code>
-</p>
-
-<p align="center">
-  <a href="https://lalitkishore.is-a.dev/" target="_blank"><code>[ HOME ]</code></a> &nbsp;
-  <a href="https://lalitkishore.is-a.dev/projects" target="_blank"><code>[ PROJECTS ]</code></a> &nbsp;
-  <a href="https://lalitkishore.is-a.dev/#about-section" target="_blank"><code>[ ABOUT ]</code></a> &nbsp;
-  <a href="https://lalitkishore.is-a.dev/#contact-section" target="_blank"><code>[ CONTACT ]</code></a> &nbsp;
-  <a href="https://lalitkishore.is-a.dev/" target="_blank"><code>[ ASK:// AI ASSISTANT ]</code></a>
-</p>
-
-###
-
-<h3 data-importer="text" align="center">IoT & AI Developer building practical automation systems with ESP32, Computer Vision, and Full-Stack Web Tech.</h3>
-
-<p align="center">
-  <em>ECE + Data Science student building AI-powered IoT and web systems for aquaculture, healthcare, and automation. - Built with precision.</em>
-</p>
-
-###
-
-<div data-importer="socials" align="center">
-  <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank" title="LinkedIn">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo" />
-  </a>
-  <a href="https://discord.com/users/1312078445513277480" target="_blank" title="Discord">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="37" height="25" alt="discord logo" />
-  </a>
-  <a href="mailto:svlalitk@gmail.com" target="_blank" title="Gmail">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="37" height="25" alt="gmail logo" />
-  </a>
-  <a href="https://lalitkishore.is-a.dev/" target="_blank" title="Portfolio Website (Lalit Kishore)">
-    <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/portfolio.png" width="25" height="25" alt="portfolio" style="border-radius: 4px; vertical-align: middle;" />
+<div align="center">
+  <a href="https://lalitkishore.is-a.dev/" target="_blank">
+    <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/header-card.svg" width="100%" alt="S V Lalit Kishore - Portfolio Header" />
   </a>
 </div>
+
+###
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"/></a>&nbsp;&nbsp;
+  <a href="https://discord.com/users/1312078445513277480" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="28" alt="Discord"/></a>&nbsp;&nbsp;
+  <a href="mailto:svlalitk@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Gmail"/></a>&nbsp;&nbsp;
+  <a href="https://lalitkishore.is-a.dev/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-E03E3E?style=for-the-badge&logo=googlechrome&logoColor=white" height="28" alt="Portfolio"/></a>
+</p>
 
 ###
 
