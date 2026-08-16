@@ -1,6 +1,10 @@
 <div align="center">
   <a href="https://lalitkishore.is-a.dev/" target="_blank">
-    <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/header-card.svg" width="100%" alt="S V Lalit Kishore - Portfolio Header" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/header-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/header-light.svg">
+      <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/header-dark.svg" width="100%" alt="S V Lalit Kishore - Portfolio Header" />
+    </picture>
   </a>
 </div>
 
@@ -22,17 +26,62 @@
 
 ###
 
-### // FEATURED SYSTEMS • CASE STUDIES
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-systems-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-systems-light.svg">
+  <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-systems-dark.svg" width="100%" alt="01 // FEATURED SYSTEMS" />
+</picture>
 
-<div align="center">
-  <a href="https://lalitkishore.is-a.dev/projects" target="_blank" title="Explore Systems on lalitkishore.is-a.dev/projects">
-    <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/featured-systems.svg" width="100%" alt="Featured Systems - AquaDot, SmartFlow IV, Med Inventory, Burfi Stock" />
-  </a>
-</div>
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://lalitkishore.is-a.dev/case/aquadot/" target="_blank" title="AquaDot Case Study">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-aquadot-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-aquadot-light.svg">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-aquadot-dark.svg" width="100%" alt="01 // AQUADOT" />
+        </picture>
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://lalitkishore.is-a.dev/case/smartflow-div/" target="_blank" title="SmartFlow DIV Case Study">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-smartflow-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-smartflow-light.svg">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-smartflow-dark.svg" width="100%" alt="02 // SMARTFLOW DIV" />
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://lalitkishore.is-a.dev/case/med-inventory/" target="_blank" title="Med Inventory Case Study">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-medinventory-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-medinventory-light.svg">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-medinventory-dark.svg" width="100%" alt="03 // MED INVENTORY" />
+        </picture>
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://lalitkishore.is-a.dev/case/burfi-stock-manager/" target="_blank" title="Burfi Stock Manager Case Study">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-burfistock-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-burfistock-light.svg">
+          <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-burfistock-dark.svg" width="100%" alt="04 // BURFI STOCK" />
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ###
 
-### // CONTRIBUTION ARCADE
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-arcade-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-arcade-light.svg">
+  <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-arcade-dark.svg" width="100%" alt="02 // CONTRIBUTION ARCADE" />
+</picture>
 
 <div align="center">
   <picture data-importer="pacman">
@@ -44,7 +93,11 @@
 
 ###
 
-### // ACTIVITY RADAR
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-radar-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-radar-light.svg">
+  <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-radar-dark.svg" width="100%" alt="03 // ACTIVITY RADAR" />
+</picture>
 
 <div data-importer="stats" align="center">
   <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/activity-graph-output/activity-graph.svg" height="300" alt="activity-graph graph" />
@@ -52,7 +105,11 @@
 
 ###
 
-### // TECHNICAL ARSENAL • CORE STACK
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-arsenal-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-arsenal-light.svg">
+  <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-arsenal-dark.svg" width="100%" alt="04 // TECHNICAL ARSENAL" />
+</picture>
 
 <div data-importer="techs" align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="42" alt="typescript" />
@@ -78,12 +135,24 @@
 
 ###
 
-### // GITHUB ANALYTICS • METRICS
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-metrics-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-metrics-light.svg">
+  <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/heading-metrics-dark.svg" width="100%" alt="05 // GITHUB ANALYTICS" />
+</picture>
 
 <div data-importer="stats" align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&title_color=E03E3E&icon_color=E03E3E&text_color=c9d1d9&bg_color=0d1117&border_color=30363d&locale=en&hide_border=false" height="150" alt="stats graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&title_color=FF3B30&icon_color=FF3B30&text_color=F2F0EB&bg_color=0A0A0A&border_color=333333&locale=en&hide_border=false">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&title_color=FF3B30&icon_color=FF3B30&text_color=0A0A0A&bg_color=F5F4F0&border_color=D0D0D0&locale=en&hide_border=false">
+    <img src="https://github-stats-extended.vercel.app/api?username=Lalitkishore2&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&title_color=FF3B30&icon_color=FF3B30&text_color=F2F0EB&bg_color=0A0A0A&border_color=333333&locale=en&hide_border=false" height="150" alt="stats graph" />
+  </picture>
   &nbsp;&nbsp;
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Lalitkishore2&layout=compact&title_color=E03E3E&text_color=c9d1d9&bg_color=0d1117&border_color=30363d&locale=en&hide_border=false" height="150" alt="top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Lalitkishore2&layout=compact&title_color=FF3B30&text_color=F2F0EB&bg_color=0A0A0A&border_color=333333&locale=en&hide_border=false">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Lalitkishore2&layout=compact&title_color=FF3B30&text_color=0A0A0A&bg_color=F5F4F0&border_color=D0D0D0&locale=en&hide_border=false">
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Lalitkishore2&layout=compact&title_color=FF3B30&text_color=F2F0EB&bg_color=0A0A0A&border_color=333333&locale=en&hide_border=false" height="150" alt="top languages" />
+  </picture>
 </div>
 
 ###
