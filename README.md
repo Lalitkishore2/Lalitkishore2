@@ -34,8 +34,8 @@
 
 <table width="100%">
   <tr>
-    <td width="50%" align="center">
-      <a href="https://lalitkishore.is-a.dev/case/aquadot/" target="_blank" title="AquaDot Case Study">
+    <td width="25%" align="center">
+      <a href="https://lalitkishore.is-a.dev/case/aquadot/" target="_blank" title="01 // AQUADOT Case Study">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-aquadot-dark.svg">
           <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-aquadot-light.svg">
@@ -43,8 +43,8 @@
         </picture>
       </a>
     </td>
-    <td width="50%" align="center">
-      <a href="https://lalitkishore.is-a.dev/case/smartflow-div/" target="_blank" title="SmartFlow DIV Case Study">
+    <td width="25%" align="center">
+      <a href="https://lalitkishore.is-a.dev/case/smartflow-div/" target="_blank" title="02 // SMARTFLOW DIV Case Study">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-smartflow-dark.svg">
           <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-smartflow-light.svg">
@@ -52,10 +52,8 @@
         </picture>
       </a>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://lalitkishore.is-a.dev/case/med-inventory/" target="_blank" title="Med Inventory Case Study">
+    <td width="25%" align="center">
+      <a href="https://lalitkishore.is-a.dev/case/med-inventory/" target="_blank" title="03 // MED INVENTORY Case Study">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-medinventory-dark.svg">
           <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-medinventory-light.svg">
@@ -63,8 +61,8 @@
         </picture>
       </a>
     </td>
-    <td width="50%" align="center">
-      <a href="https://lalitkishore.is-a.dev/case/burfi-stock-manager/" target="_blank" title="Burfi Stock Manager Case Study">
+    <td width="25%" align="center">
+      <a href="https://lalitkishore.is-a.dev/case/burfi-stock-manager/" target="_blank" title="04 // BURFI STOCK Case Study">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-burfistock-dark.svg">
           <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/card-burfistock-light.svg">
@@ -100,7 +98,11 @@
 </picture>
 
 <div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/activity-graph-output/activity-graph.svg" height="300" alt="activity-graph graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/activity-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/activity-graph-light.svg">
+    <img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/activity-graph-dark.svg" height="300" alt="activity-graph" />
+  </picture>
 </div>
 
 ###

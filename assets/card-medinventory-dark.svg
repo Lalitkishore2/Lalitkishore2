@@ -1,38 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 210" width="100%" height="100%">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 320" width="100%" height="100%">
   <defs>
-    <clipPath id="cardClip">
-      <rect width="540" height="210" rx="8" ry="8" />
+    <clipPath id="scClip_card-medinventory-dark.svg">
+      <rect width="260" height="320" rx="8" ry="8" />
     </clipPath>
   </defs>
 
-  <g clip-path="url(#cardClip)">
-    <rect width="540" height="210" fill="#0A0A0A" />
+  <g clip-path="url(#scClip_card-medinventory-dark.svg)">
+    <rect width="260" height="320" fill="#111111" />
 
-    <!-- Top Header -->
-    <text x="24" y="38" fill="#FF3B30" font-family="'JetBrains Mono', monospace" font-weight="bold" font-size="14">03 // </text>
-    <text x="80" y="38" fill="#F2F0EB" font-family="-apple-system, sans-serif" font-weight="800" font-size="17" letter-spacing="1">MED INVENTORY</text>
+    <!-- Top Accent Bar -->
+    <rect x="0" y="0" width="260" height="4" fill="#FF3B30" />
 
-    <!-- Badge -->
-    <rect x="420" y="20" width="96" height="22" rx="4" fill="#FF3B30" />
-    <text x="468" y="35" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold" text-anchor="middle">CASE STUDY &#x2197;</text>
+    <!-- Index & Status -->
+    <text x="18" y="32" fill="#FF3B30" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" letter-spacing="1.5">03/</text>
+    <rect x="160" y="18" width="82" height="18" rx="3" fill="#FF3B30" />
+    <text x="201" y="31" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="bold" text-anchor="middle">â—† BUILDING</text>
+
+    <!-- Title -->
+    <text x="18" y="66" fill="#F2F0EB" font-family="-apple-system, sans-serif" font-weight="900" font-size="16" letter-spacing="0.5">MED INVENTORY</text>
 
     <!-- Description -->
-    <text x="24" y="78" fill="#F2F0EB" font-family="-apple-system, sans-serif" font-size="13.5" font-weight="600">Computer Vision Medical Logistics &amp; Stock Tracker</text>
-    <text x="24" y="104" fill="#888880" font-family="-apple-system, sans-serif" font-size="12">Automated camera/OCR expiry classification &amp; multi-channel SMS alerts.</text>
+    <foreignObject x="18" y="78" width="224" height="75">
+      <p xmlns="http://www.w3.org/1999/xhtml" style="margin:0; font-family:-apple-system, sans-serif; font-size:11.5px; line-height:1.4; color:#888880;">
+        Computer vision smart fridge tracking medicine stock &amp; expiry.
+      </p>
+    </foreignObject>
 
-    <!-- Tags -->
-    <g transform="translate(24, 152)">
-      <rect x="0" y="0" width="80" height="24" rx="4" fill="#161b22" stroke="#333333" stroke-width="1" />
-      <text x="40" y="16" fill="#F2F0EB" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">OpenCV</text>
+    <!-- Metric Highlight Box -->
+    <rect x="18" y="160" width="224" height="42" rx="4" fill="#0A0A0A" stroke="#333333" stroke-width="1" />
+    <text x="28" y="178" fill="#FF3B30" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="bold" letter-spacing="0.5">METRIC TARGET</text>
+    <text x="28" y="193" fill="#F2F0EB" font-family="-apple-system, sans-serif" font-size="10.5" font-weight="600">Daily automated audits</text>
+
+    <!-- Tech Tags -->
+    <g transform="translate(18, 216)">
+      <rect x="0" y="0" width="65" height="20" rx="3" fill="#161b22" stroke="#333333" stroke-width="1" />
+      <text x="32" y="14" fill="#F2F0EB" font-family="'JetBrains Mono', monospace" font-size="9.5" text-anchor="middle">OpenCV</text>
       
-      <rect x="90" y="0" width="105" height="24" rx="4" fill="#161b22" stroke="#333333" stroke-width="1" />
-      <text x="142" y="16" fill="#F2F0EB" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">Tesseract</text>
-      
-      <rect x="205" y="0" width="90" height="24" rx="4" fill="#161b22" stroke="#333333" stroke-width="1" />
-      <text x="250" y="16" fill="#F2F0EB" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">Python</text>
+      <rect x="72" y="0" width="75" height="20" rx="3" fill="#161b22" stroke="#333333" stroke-width="1" />
+      <text x="109" y="14" fill="#F2F0EB" font-family="'JetBrains Mono', monospace" font-size="9.5" text-anchor="middle">Tesseract</text>
     </g>
+
+    <!-- Button -->
+    <rect x="18" y="258" width="224" height="36" rx="4" fill="#FF3B30" />
+    <text x="130" y="281" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" text-anchor="middle">CASE STUDY &#x2197;</text>
   </g>
 
-  <!-- Outer Border with Accent -->
-  <rect width="540" height="210" rx="8" ry="8" fill="none" stroke="#FF3B30" stroke-width="1.5" />
+  <!-- Border -->
+  <rect width="260" height="320" rx="8" ry="8" fill="none" stroke="#FF3B30" stroke-width="1.5" />
 </svg>
