@@ -6,12 +6,12 @@
 
 ###
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"/></a>&nbsp;&nbsp;
-  <a href="https://discord.com/users/1312078445513277480" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="28" alt="Discord"/></a>&nbsp;&nbsp;
-  <a href="mailto:svlalitk@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Gmail"/></a>&nbsp;&nbsp;
-  <a href="https://lalitkishore.is-a.dev/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-E03E3E?style=for-the-badge&logo=googlechrome&logoColor=white" height="28" alt="Portfolio"/></a>
-</p>
+<div align="center">
+  <a href="https://www.linkedin.com/in/lalitkishore-s-v/" target="_blank" title="LinkedIn"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="42" height="42" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://discord.com/users/1312078445513277480" target="_blank" title="Discord"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="42" height="42" alt="Discord" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:svlalitk@gmail.com" target="_blank" title="Gmail"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="42" height="42" alt="Gmail" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://lalitkishore.is-a.dev/" target="_blank" title="Portfolio (lalitkishore.is-a.dev)"><img src="https://raw.githubusercontent.com/Lalitkishore2/Lalitkishore2/main/assets/portfolio.png" width="40" height="40" style="border-radius: 8px; vertical-align: middle;" alt="Portfolio" /></a>
+</div>
 
 ###
 
