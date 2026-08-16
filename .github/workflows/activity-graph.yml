@@ -24,7 +24,7 @@ jobs:
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: ${{ github.repository_owner }}
-          options: radius=8&bg_color=161b22&border_color=30363d&color=8b949e&line=FF3B30&point=FF3B30&area=true&hide_border=false&custom_title=30%20DAYS%20ACTIVITY%20FLOW
+          options: bg_color=00000000&color=8b949e&line=FF3B30&point=FF3B30&area=true&hide_border=true&hide_title=true
           output_path: dist/activity-graph-dark.svg
           token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
@@ -32,7 +32,7 @@ jobs:
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: ${{ github.repository_owner }}
-          options: radius=8&bg_color=FFFFFF&border_color=D0D0D0&color=6B6B68&line=FF3B30&point=FF3B30&area=true&hide_border=false&custom_title=30%20DAYS%20ACTIVITY%20FLOW
+          options: bg_color=00000000&color=6B6B68&line=FF3B30&point=FF3B30&area=true&hide_border=true&hide_title=true
           output_path: dist/activity-graph-light.svg
           token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
 
