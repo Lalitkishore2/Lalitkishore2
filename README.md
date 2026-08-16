@@ -6,9 +6,9 @@
 
 <p align="center">
   <a href="https://lalitkishore.is-a.dev/" target="_blank"><code>[ HOME ]</code></a> &nbsp;
-  <a href="https://lalitkishore.is-a.dev/#projects" target="_blank"><code>[ PROJECTS ]</code></a> &nbsp;
+  <a href="https://lalitkishore.is-a.dev/projects" target="_blank"><code>[ PROJECTS ]</code></a> &nbsp;
   <a href="https://lalitkishore.is-a.dev/#about-section" target="_blank"><code>[ ABOUT ]</code></a> &nbsp;
-  <a href="https://lalitkishore.is-a.dev/#contact" target="_blank"><code>[ CONTACT ]</code></a> &nbsp;
+  <a href="https://lalitkishore.is-a.dev/#contact-section" target="_blank"><code>[ CONTACT ]</code></a> &nbsp;
   <a href="https://lalitkishore.is-a.dev/" target="_blank"><code>[ ASK:// AI ASSISTANT ]</code></a>
 </p>
 
@@ -51,10 +51,10 @@
 
 | Index | System | Tech Stack | Description |
 | :--- | :--- | :--- | :--- |
-| `01` | **[AQUADOT](https://lalitkishore.is-a.dev/)** | `ESP32` `Embedded C` `Sensors` | Autonomous aquaculture monitoring and water quality control system |
-| `02` | **[SMARTFLOW IV](https://lalitkishore.is-a.dev/)** | `IoT` `Hardware` `Telemetry` | Intelligent intravenous fluid rate monitoring and telemetry alert system |
-| `03` | **[MED INVENTORY](https://lalitkishore.is-a.dev/)** | `Python` `OpenCV` `YOLO` | Computer vision-assisted medical stock tracking and logistics |
-| `04` | **[BURFI STOCK](https://lalitkishore.is-a.dev/)** | `TypeScript` `Full-Stack` | Full-stack inventory management, order forecasting, and analytics |
+| `01` | **[AQUADOT](https://lalitkishore.is-a.dev/projects)** | `ESP32` `Embedded C` `Sensors` | Autonomous aquaculture monitoring and water quality control system |
+| `02` | **[SMARTFLOW IV](https://lalitkishore.is-a.dev/projects)** | `IoT` `Hardware` `Telemetry` | Intelligent intravenous fluid rate monitoring and telemetry alert system |
+| `03` | **[MED INVENTORY](https://lalitkishore.is-a.dev/projects)** | `Python` `OpenCV` `YOLO` | Computer vision-assisted medical stock tracking and logistics |
+| `04` | **[BURFI STOCK](https://lalitkishore.is-a.dev/projects)** | `TypeScript` `Full-Stack` | Full-stack inventory management, order forecasting, and analytics |
 
 ###
 
@@ -75,25 +75,25 @@
 ### TECHNICAL ARSENAL // CORE STACK
 
 <div data-importer="techs" align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="55" alt="typescript logo" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height="55" alt="python logo" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original-wordmark.svg" height="55" alt="embeddedc logo" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" height="55" alt="git logo" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" height="55" alt="html5 logo" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="55" alt="figma logo" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="55" alt="firebase logo" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="55" alt="javascript logo" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" height="55" alt="nodejs logo" />
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="55" alt="swift logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="45" alt="typescript" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="45" alt="python" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="45" alt="c" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="45" alt="git" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="45" alt="html5" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="45" alt="figma" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="45" alt="firebase" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="45" alt="javascript" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="45" alt="nodejs" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="45" alt="swift" />
 </div>
 
 ###
